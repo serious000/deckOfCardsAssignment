@@ -94,3 +94,7 @@ justin.discardCard(deck);
 console.log(justin.hand); // one card left
 console.log(deck.cards.length); // 51 cards on the deck
 
+// Everything looks great but in the discardCard method it looks like your pushing the card into the deck after you discard. If this was a real
+// game that would look weird you should just remove the card, and then after the deck is empty you just reset the deck. You can even make that part of the 
+// deal function. So in the else statement if you run out of cards just reset the deck. 
+

@@ -66,7 +66,9 @@ console.log(bob.hand);
 
 
 // This looks great and the code looks very clean, I guess the only thing that I would say that looks weird, is that you're passing in the
-// deck as a parameter for the discard method. You don't use it, so don't include it as a parameter. Besides that great job! 
+// deck as a parameter for the discard method. You don't use it, so don't include it as a parameter. Besides that great job!
+
+// Also in deal if you run out of cards you should just reset the deck. So check length of stack before pop. 
 
 
 
