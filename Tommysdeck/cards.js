@@ -72,4 +72,14 @@ player.takecard()
 player.takecard()
 player.discard()
 
+// So I think you and steven worked on this together and that's fine but the comments are the same. 
+// So here it looks like you're using the globally scoped var game, to get a card from the deck. Instead of this you should pass in an instance of
+// DeckConstructor in the the takeCard function. So it would look something like this. 
+// Player.prototype.takecard = function(deck){
+// 	this.hand.push(deck.dealdeck());
+// 	console.log("Player's hand");
+// 	console.log(this.hand);
+// };
 
+// player.takecard(game);
+// 
