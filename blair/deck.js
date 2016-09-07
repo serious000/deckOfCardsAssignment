@@ -90,6 +90,8 @@ console.log(p2.hand);
 
 */
 
+// Looks good, I like that you used card index in discard card instead of just discaring top card.
+// Keep up the good work. 
 
 
 
