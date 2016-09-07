@@ -106,3 +106,7 @@ deck1.deal(playerList, 7);
 deck1.show();
 player1.discard(0);
 player1.show();
+
+// This looks great, for that Player.prototype.draw = function(deck){deck.draw(this);return this;}
+// In that case you are returning the instance of player. 
+// Keep up the good work it looks good 
