@@ -76,6 +76,16 @@ var ankita = new Player("Ankita");
 ankita.draw(deck).draw(deck).draw(deck).draw(deck).draw(deck);
 ankita.show().discard().show().discard().show().discard();
 
+// Ok for the most part this looks good, but let's make sure that for the discard function that we're passing in the deck that we're referring too.
+// Right not it's asccesing the deck that you're creating below because it's globally scoped. Instead of the way you have it you should have 
+// something like this. Right now it looks like your passing it in when you invoke the function but the method itself does not have any parameters present
+//  --Oscar 
+
+Player.prototype.draw = function(deck){
+	this.player_cards = this.hand.push(deck.deal());
+	return this;
+}
+
 
 
 
