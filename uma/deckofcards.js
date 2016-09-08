@@ -95,4 +95,10 @@ Player.prototype.view_hand = function(){
 	console.log(this.hand);
 }
 
+// Mostly this looks good, refer to how Howard created his deck during his demo. I like the idea of making a card into it's own obejct instead.
+// of just making each card into a string. If we wan't to make this into an actual game later on we would have to parse the string for the values
+// and it would make it tougher on us later on.
+
+// I do like the way that you handle discard, using indexOf for card makes it alot easier to find the card we're trying to discard. 
+
 
