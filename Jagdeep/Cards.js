@@ -63,6 +63,12 @@ Player.prototype.discard = function(){
 }
 }
 
+// For the most part this looks good but it looks like in discard you're just removing all of the cards from the hand. Instead you should be passing
+// in some identifier, like the card you wan't to remove or the index of where that card is in your hand, and only discard on card at a time. 
+// Also if you wanted to just discard your entire hand you can just say 
+// this.hand = [];
+// You just make your hand equal to an empty array
+
 var deck = new deck();
 deck.reset();
 deck.show().shuffle().show();
