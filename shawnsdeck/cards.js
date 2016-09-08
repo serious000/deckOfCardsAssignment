@@ -55,3 +55,7 @@ shawn.draw(deck).draw(deck).draw(deck).draw(deck).draw(deck);
 console.log(shawn.hand);
 shawn.discard(2);
 console.log(shawn.hand);
+//  I would like you to use howards demo as an example though, he made each card into its own object as well. Creating the card as a 
+// string makes it tougher to use if we ever make this into an actual game because then we're going to have to parse the card string to get it's values.
+
+// Besides that it looks good and clean, keep up the good work!

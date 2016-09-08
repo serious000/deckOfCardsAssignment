@@ -95,3 +95,6 @@ var person = new Player("PlayerONe");
 console.log(person.takeCard(test).takeCard(test).takeCard(test).hand);
 person.discardCard(person.hand[2]);
 console.log(person.hand);
+
+// I really like the way that you set up the code for the Deck, I'm going to use something very similar for my example. 
+// Really good job, keep it up! Very clean 

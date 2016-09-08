@@ -126,3 +126,8 @@ varian.draw(mydeck).draw(mydeck).draw(mydeck).draw(mydeck).draw(mydeck).print();
 mydeck.print();
 varian.discard(varian.getHandArray()[0].string).print();
 varian.discard().print();
+
+// This is a very good approach as well, I like the practice of setting your private variables with a _ right infront. This 
+// is used very often in source code. When i send out my example I'll show a method used so that you can use private variables 
+// and prototypes. 
+// Great Job, keep it up!
