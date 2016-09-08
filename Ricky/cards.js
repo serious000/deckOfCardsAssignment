@@ -97,3 +97,6 @@ ricky.show();
 // Just set the hand to an empty array
 
 // Also when drawing you should check to see whether the deck is empty and if it's empty just reset the deck and then draw.
+
+
+
