@@ -73,4 +73,8 @@ console.log(deck.cards.length);
 john.takeCard(deck).takeCard(deck);
 console.log(john.hand);
 
+// This looks great! Good job. 
+// The only thing I would say is that when we discard a card we shouldn't be pushing it into the deck. We should just get rid of it.
+// This is me nitpicking, but in a game it would be weird if we just push the cards that we discard into the deck, we usually wait for the 
+// deck to be empty and then reset the deck. 
 
