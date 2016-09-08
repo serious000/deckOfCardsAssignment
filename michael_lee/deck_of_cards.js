@@ -62,3 +62,5 @@ Michael.takeCard(Deck);
 console.log("This is " + Michael.name + "'s hand: ");
 console.log(Michael.hand);
 console.log(Deck);
+// when drawing you should check to see whether the deck is empty and if it's empty just reset the deck and then draw.
+// That way when drawing you won't receive a null value from the deck if it's empty
