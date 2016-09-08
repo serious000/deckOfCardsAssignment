@@ -134,4 +134,4 @@ joe.discard().show_hand();
 joe.discard(joe.hand[0].card).show_hand();
 
 // Looks great keep up the good work --Oscar 
-// Make sure to keep on adding comments like this when the assignments get more complex. Good job!
+// Make sure to keep on adding comments like this when the assignments get more complex. Awesome Job!
