@@ -90,4 +90,11 @@ console.log(Harmann.discard())
 Harmann.show();
 
 
+// So for discard I like the idea of discarding one single card from your hand, you should pass in the index of that card your looking for or
+// the entire card and look for it and get rid of it. 
+
+
+// Also when drawing you should check to see whether the deck is empty and if it's empty just reset the deck and then draw the card
+// This will prevent your from drawing a null value if your deck is empty
+
 
