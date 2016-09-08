@@ -61,3 +61,11 @@ var James = new PlayerConstructor("James");
 James.hand.push(random.deal(), random.deal(), random.deal(), random.deal(), random.deal());
 James.hand.splice(2, 1, random.deal(), random.deal(), random.deal(), random.deal());
 random.displayHand();
+
+// I think we can make the deck construction a lot cleaner. I would suggest more like the approach that Howard used in his demo yesterday. 
+// It's best if we make each card into a seperate object. 
+
+// Also we should make the PlayerConstructor have a method called draw that would take care of drawing a card from the deck. We shouldn't be 
+// push into the players hand from outside of the class, becuase it's going to be extra work for us later. 
+// Make sure to watch the demo that howard posted and refactoring some of this code at a later date. If you wan't some more feedback on this
+// code just make sure to send a new pull request and I'll check it out
