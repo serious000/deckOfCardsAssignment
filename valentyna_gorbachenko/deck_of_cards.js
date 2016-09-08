@@ -70,9 +70,15 @@ function Player(name){
 	this.name = name;
 	this.hand = [];
 }
-// 
-Player.prototype.takeCard = function(){
-	this.hand.push(test.deal()); // using an instance of the Deck class
+
+// Player.prototype.takeCard = function(){
+// 	this.hand.push(test.deal()); // using an instance of the Deck class
+// 	return this; 
+// };
+
+// better to pass an instance of the deck as a parameter
+Player.prototype.takeCard = function(deck){
+	this.hand.push(deck.deal()); 
 	return this; 
 };
 Player.prototype.discardCard = function(card){
@@ -86,8 +92,6 @@ Player.prototype.discardCard = function(card){
 ////// testing class Player ////////
 var person = new Player("PlayerONe");
 
-console.log(person.takeCard().takeCard().takeCard().hand);
+console.log(person.takeCard(test).takeCard(test).takeCard(test).hand);
 person.discardCard(person.hand[2]);
 console.log(person.hand);
-
-
